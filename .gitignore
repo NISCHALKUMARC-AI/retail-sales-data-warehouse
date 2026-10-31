@@ -1,0 +1,33 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Generated database
+database/*.db
+
+# Generated cleaned data
+data/cleaned_sales.csv
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Operating system files
+.DS_Store
+
+# Dataset files
+data/*.csv
+
+# SQLite database
+database/*.db
